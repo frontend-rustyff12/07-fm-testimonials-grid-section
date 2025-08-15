@@ -1,7 +1,13 @@
+import Card from "./Card";
+import { cardData } from "./data/data";
 function App() {
   return (
-    <main className="bg-blue-500">
-      <h1>Testing</h1>
+    <main className="min-h-screen py-20 px-10 bg-Purple-50 font-barlow">
+      <section className="">
+        {cardData.map((item, index) => (
+          <Card props={item} index={index} key={index} />
+        ))}
+      </section>
     </main>
   );
 }

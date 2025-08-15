@@ -15,3 +15,7 @@
   --color-Black: hsl(0, 0%, 7%);
   --font-barlow: "Barlow Semi Condensed", sans-serif;
 }
+
+html {
+  font-size: 13px;
+}
