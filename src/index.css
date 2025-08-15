@@ -14,6 +14,7 @@
   --color-Dark-blue: hsl(219, 29%, 14%);
   --color-Black: hsl(0, 0%, 7%);
   --font-barlow: "Barlow Semi Condensed", sans-serif;
+  --custom-bg-position: 85% 0%;
 }
 
 html {
